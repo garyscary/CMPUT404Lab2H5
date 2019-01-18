@@ -15,7 +15,7 @@ def main():
             conn, addr = s.accept()
             print("I was connected by", addr)
             
-            full_data =  b""
+            full_data = b""
             while True:
                 data = conn.recv(BUFFER_SIZE)
                 if not data: break

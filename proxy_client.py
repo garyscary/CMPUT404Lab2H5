@@ -2,8 +2,8 @@
 
 import socket
 
-HOST = "www.google.com"
-PORT = 80
+HOST = "localhost"
+PORT = 8001
 BUFFER_SIZE = 1024
 
 payload = "GET / HTTP/1.0\r\nHost: {}\r\n\r\n".format(HOST)
